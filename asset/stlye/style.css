@@ -35,3 +35,37 @@ header {
     margin: 0;
     display: block;
 }
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bar li {
+    float: left;
+}
+
+.nav-bar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-bar::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.pesquisa-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}

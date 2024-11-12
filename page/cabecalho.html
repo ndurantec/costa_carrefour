@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carrefour</title>
-    <link rel="stylesheet" type="text/css" href="../asset/style/style.css">
+    <link rel="stylesheet" type="text/css" href="../asset/stlye/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -32,19 +32,28 @@
         <div class="logo">
             <li><img src=https://carrefourbr.vtexassets.com/assets/vtex.file-manager-graphql/images/c38d7260-359d-4a84-8a56-c92a85a55b07___0fe5a16842979f7664f02f8612015eca.png>
         </div>
-        <input type="search" value="Pesquise por produtos ou marcas"> 
-        <button data-testid="search-button"></button>
-        <div class="letras">                                        
-            <div class="">Ofertas da semana</div>
-            <div class="">Saldão</div>
-            <div class="">Retira na loja</div>
-            <div class="">Eletrodomésticos</div>
-            <div class="">Tv & Vídeo</div>
-            <div class="">Smartphones</div>
-            <div class="">Eletroportáteis</div>
-            <div class="">Informática</div>
-            <div class="">Pneus</div>
-        </div>
+        <section class="pesquisa-section">
+            <div class="pesquisa-container">
+                <input type="text" placeholder="Pesquise por produtos ou marcas" class="pesquisa-input">
+                <button class="pesquisa-button">
+                    <i class="bi bi-search"></i>
+                </button>
+            </div>
+        </section>
+        <nav class="nav-bar">
+            <ul class="nav-list">
+                <li><a href="#"><i class="bi bi-list"></i>Departamentos</a></li>
+                <li><a href="#">Ofertas da semana</a></li>
+                <li><a href="#">Saldão</a></li>
+                <li><a href="#">Mais vendidos</a></li>
+                <li><a href="#">Retire na loja</a></li>
+                <li><a href="#">TV e Vídeo</a></li>
+                <li><a href="#">Celulare</a></li>
+                <li><a href="#">Informatica</a></li>
+                <li><a href="#">Pneus</a></li>
+                <li><a href="#"><i class="bi bi-list"></i>Cartão Carrefour</a></li>
+            </ul>
+        </nav>
     </main>
 </body>
 </html>
