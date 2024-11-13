@@ -1,6 +1,7 @@
 
 header {
-    background-color:#1e5bc6; 
+    background-color:#1e5bc6;
+ 
 }
 
 body{
@@ -9,14 +10,14 @@ body{
 
 .header-second{
     background-color:#1e5bc6; 
+    margin-left: 590px;
 }
 
 .hed {
     display: flex;
     justify-content: center; 
     gap: 20px;
-    padding: 0 20px; 
-    background: linear-gradient(105deg, red 58%, #fdba11 42%); 
+    padding: 0 20px;  
 }
 
 .menu {
@@ -42,6 +43,7 @@ body{
     color: #ffffff;
     padding: 10px 20px; 
     padding: 5px 10px; 
+    display: flex;
 }
 
 .icons {
